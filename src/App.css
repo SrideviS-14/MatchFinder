@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#fbc02d;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 40px;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Added */
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Adjust padding for better button appearance */
+  font-size: 16px; /* Adjust font size */
+  transition: background-color 0.3s, color 0.3s, border 0.3s; /* Smooth transition */
+}
+
+.btn-success {
+  background-color: #ffeb3b;
+  color: #673ab7;
+}
+
+.btn-success:hover {
+  background-color: #fbc02d;
+  color: #673ab7;
+  border: 1px solid #fbc02d; /* Add border on hover for better contrast */
+}
+
+
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+/* Center-align content */
+.qform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; /* Added */
+}
+
+h1, h3, h4, h6 {
+  color: #673ab7;
+}
+
+label {
+  font-weight: bold;
+}
+
+.badge-pill {
+  background-color: #673ab7;
+  color: #fff;
+}
+
+.bg-success {
+  background-color: #673ab7;
+}
+
+/* ThankYouPage specific styles */
+.card-body h3, .card-body h6 {
+  color: #ffc107;
+}
+.badge-pill.disabled {
+  background-color: #673ab7;
+}
+
+.badge-pill.bg-success {
+  background-color: #ffeb3b;
+  color: #673ab7;
+  margin-top: 15px; /* Added */
+}
